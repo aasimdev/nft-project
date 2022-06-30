@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { Player, BigPlayButton, ControlBar } from "video-react";
 
-import videoScreenshot from '../../assets/img/screenshot.png'
+import videoScreenshot from '../../../assets/img/screenshot.png'
 
 import { useLocation } from 'react-router-dom'
 

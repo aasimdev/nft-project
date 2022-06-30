@@ -1,7 +1,7 @@
 import About from './views/About/About';
 import './App.scss';
 import Header from './constant/Header/Header';
-import Home from './Home/Home';
+import Home from './views/Home/Home';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import NftMember from './views/NftMember/NftMember';
 import Footer from './constant/Footer/Footer';

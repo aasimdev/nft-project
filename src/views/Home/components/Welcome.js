@@ -4,9 +4,9 @@ import { Player, BigPlayButton, ControlBar } from "video-react";
 
 
 
-import sideImage from '../../assets/img/sidebaner1.png'
-import DummyVideo from '../../assets/video/IKEA Australia animated video.mp4'
-import vs1 from "../../assets/img/screenshot.png";
+import sideImage from '../../../assets/img/sidebaner1.png'
+import DummyVideo from '../../../assets/video/IKEA Australia animated video.mp4'
+import vs1 from "../../../assets/img/screenshot.png";
 
 const Welcome = () => {
     return (

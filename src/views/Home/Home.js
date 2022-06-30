@@ -1,37 +1,37 @@
 import React, { useEffect, useState } from 'react'
 import ReactFullpage from '@fullpage/react-fullpage'
-import Header from '../constant/Header/Header';
+import Header from '../../constant/Header/Header';
 import Welcome from './components/Welcome';
 import Feature from './components/Feature';
 import { Button, Container, Image } from 'react-bootstrap';
 import { ChevronDoubleRight } from 'react-bootstrap-icons';
 
 
-import featureCardImg1 from '../assets/img/featurecard1.png'
-import featureCardImg2 from '../assets/img/featurecard2.png'
-import featureCardImg3 from '../assets/img/featurecard3.png'
-import featureCardImg4 from '../assets/img/featurecard4.png'
-import featureCardImg5 from '../assets/img/featurecard5.png'
-import featureCardImg6 from '../assets/img/featurecard6.png'
+import featureCardImg1 from '../../assets/img/featurecard1.png'
+import featureCardImg2 from '../../assets/img/featurecard2.png'
+import featureCardImg3 from '../../assets/img/featurecard3.png'
+import featureCardImg4 from '../../assets/img/featurecard4.png'
+import featureCardImg5 from '../../assets/img/featurecard5.png'
+import featureCardImg6 from '../../assets/img/featurecard6.png'
 
-import feature1 from '../assets/img/feature1.png'
-import feature2 from '../assets/img/feature2.png'
-import feature3 from '../assets/img/feature3.png'
-import feature4 from '../assets/img/feature4.png'
-import feature5 from '../assets/img/feature5.png'
-import feature6 from '../assets/img/feature6.png'
+import feature1 from '../../assets/img/feature1.png'
+import feature2 from '../../assets/img/feature2.png'
+import feature3 from '../../assets/img/feature3.png'
+import feature4 from '../../assets/img/feature4.png'
+import feature5 from '../../assets/img/feature5.png'
+import feature6 from '../../assets/img/feature6.png'
 
-import propertyGif from '../assets/img/Property-Gif.gif'
-import advisoryGif from '../assets/img/Advisory-gif.gif'
-import renovationGif from '../assets/img/Renovation-gif.gif'
-import homeservicesGif from '../assets/img/Home-Services-gif.gif'
-import ecommerceGif from '../assets/img/ecom-gif.gif'
-import communityGif from '../assets/img/Community-gif.gif'
+import propertyGif from '../../assets/img/Property-Gif.gif'
+import advisoryGif from '../../assets/img/Advisory-gif.gif'
+import renovationGif from '../../assets/img/Renovation-gif.gif'
+import homeservicesGif from '../../assets/img/Home-Services-gif.gif'
+import ecommerceGif from '../../assets/img/ecom-gif.gif'
+import communityGif from '../../assets/img/Community-gif.gif'
 
-import videoclip from '../assets/video/IKEA Australia animated video.mp4'
+import videoclip from '../../assets/video/IKEA Australia animated video.mp4'
 
 
-import videoScreenshot from '../assets/img/screenshot.png'
+import videoScreenshot from '../../assets/img/screenshot.png'
 
 const Home = () => {
 
