@@ -1,0 +1,33 @@
+.navbar {
+    background: #d8f8ff;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    .navbar-brand{
+        padding: 0;
+    }
+    &.navbarScrolled {
+        padding-bottom: 8px;
+    }
+    .btn {
+        border: 1px solid #6D7993;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #6D7993;
+        background-color: transparent;
+        text-transform: uppercase;
+        padding: 4px 21px;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #6D7993 !important;
+        margin-right: 24px;
+    }
+}

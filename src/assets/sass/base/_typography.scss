@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 35px;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 700;
+    span {color: $primary-color;}
+}
+
+p {
+    font-size: 19px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: 300;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}

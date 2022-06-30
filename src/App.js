@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './views/About/About';
+import './App.scss';
+import Header from './constant/Header/Header';
+import Home from './Home/Home';
+import { Routes, Route, useLocation } from 'react-router-dom'
+import NftMember from './views/NftMember/NftMember';
+import Footer from './constant/Footer/Footer';
 
-function App() {
+export default function App() {
+  const { pathname } = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="nft-member" element={<NftMember />} />
+      </Routes>
+      {pathname != '/' ?
+        <Footer />
+        : null}
+
+    </>
   );
 }
 
-export default App;

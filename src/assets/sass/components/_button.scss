@@ -1,0 +1,21 @@
+.btn {
+  &.btn-secondary {
+    background: #99D3DF;
+    border: 2px solid #99D3DF;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 22px 21px;
+    display: inline-flex;
+    align-items: center;
+    i{
+      font-size: 38px;
+      margin-right: 24px;
+    }
+    &:focus{
+      box-shadow: none;
+    }
+  }
+}
