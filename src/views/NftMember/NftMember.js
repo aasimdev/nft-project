@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Button, Modal, Image } from 'react-bootstrap'
+import { Outlet } from 'react-router-dom'
 
 import metamaskCoin from '../../assets/img/metamask.png'
 import trustCoin from '../../assets/img/trust.png'
@@ -7,6 +8,8 @@ import coinbaseCoin from '../../assets/img/coinbase.png'
 import ConnectWallet from './components/ConnectWallet'
 import NftMemberContent from './components/NftMemberContent'
 import NftIntro from './components/NftIntro'
+import NftOverallStats from './components/NftOverallStats'
+import NftTypes from './components/NftTypes'
 
 const NftMember = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -45,16 +48,18 @@ const NftMember = () => {
 
         <NftMemberContent />
         <NftIntro />
+        <NftOverallStats />
+        <NftTypes />
       </Container>
 
-
+      <Outlet />
 
       <Modal
         size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
         centered
         show={modalShow}
         onHide={() => setModalShow(false)}
+        className="nftConnectModal"
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
@@ -92,6 +97,7 @@ const NftMember = () => {
           <Button variant='secondary'>Learn More</Button>
         </Modal.Footer>
       </Modal>
+
     </section>
   )
 }

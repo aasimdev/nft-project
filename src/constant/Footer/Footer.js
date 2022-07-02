@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Image } from 'react-bootstrap';
 import Logo from '../../assets/img/Logo.png'
 import { Discord, Twitter, EnvelopeFill } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,13 +14,13 @@ const Footer = () => {
           </div>
           <ul className='footer__links'>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">ABOUT US</a>
+              <Link to="/about">ABOUT US</Link>
             </li>
             <li>
-              <a href="#">NFT MEMBER</a>
+              <Link to="/nft-member">NFT MEMBER</Link>
             </li>
             <li>
               <a href="#">SIGN UP/LOGIN</a>

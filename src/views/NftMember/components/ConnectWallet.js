@@ -10,127 +10,14 @@ import { ChevronLeft } from 'react-bootstrap-icons';
 import mynftImg from '../../../assets/img/mynft.png'
 import pasttransImg from '../../../assets/img/pasttrans.png'
 import rewardsImg from '../../../assets/img/rewards.png'
-import nftDummyImg from '../../../assets/img/greendummy.jpg'
+
 import MyNft from './MyNft'
 import PastTransactions from './PastTransactions';
 
+import { myNfts, pastTransactions } from '../../../data/data';
+import MyNftNo from '../../NoContentExist/MyNftNo';
+
 const ConnectWallet = () => {
-
-    // My NFTS
-    const myNfts = [
-        {
-            id: 1300,
-            title: 'E-Commerce',
-            image: nftDummyImg
-        },
-        {
-            id: 1301,
-            title: 'Property',
-            image: nftDummyImg
-        },
-        {
-            id: 1302,
-            title: 'E-Commerce',
-            image: nftDummyImg
-        },
-        {
-            id: 1303,
-            title: 'Property',
-            image: nftDummyImg
-        }
-        , {
-            id: 1304,
-            title: 'E-Commerce',
-            image: nftDummyImg
-        }
-        , {
-            id: 1305,
-            title: 'Property',
-            image: nftDummyImg
-        }
-        , {
-            id: 1306,
-            title: 'E-Commerce',
-            image: nftDummyImg
-        }
-    ]
-
-    // Past Transactions
-    const pastTransactions = [
-        {
-            date: 'Mar 10, 2022',
-            type: 'Bought',
-            amount: '0.11',
-            value: '$200',
-            serialno: '00321',
-            from: '0x323',
-            to: '0x123'
-        },
-        {
-            date: 'Mar 02, 2022',
-            type: 'Offer',
-            amount: '0.2',
-            value: '$200',
-            serialno: '01000',
-            from: '',
-            to: ''
-        },
-        {
-            date: 'Feb 02, 2022',
-            type: 'Bid',
-            amount: '0.11',
-            value: '$300',
-            serialno: '01080',
-            from: '',
-            to: '0x523'
-        },
-        {
-            date: 'Jan 02, 2022',
-            type: 'Bid',
-            amount: '0.08',
-            value: '$200',
-            serialno: '08888',
-            from: '',
-            to: '0x623'
-        }
-        ,
-        {
-            date: 'Mar 10, 2022',
-            type: 'Bought',
-            amount: '0.11',
-            value: '$200',
-            serialno: '00321',
-            from: '0x323',
-            to: '0x123'
-        },
-        {
-            date: 'Dec 12, 2021',
-            type: 'Sold',
-            amount: '0.18',
-            value: '$200',
-            serialno: '06969',
-            from: '0x323',
-            to: '0x123'
-        },
-        {
-            date: 'Dec 02, 2021',
-            type: 'Transfer',
-            amount: '0.',
-            value: '',
-            serialno: '09230',
-            from: '0x923',
-            to: '0x123'
-        },
-        {
-            date: 'Dec 02, 2021',
-            type: 'Transfer',
-            amount: '0.',
-            value: '',
-            serialno: '09230',
-            from: '0x123',
-            to: '0x923'
-        }
-    ]
 
     const settings = {
         dots: false,
@@ -171,18 +58,26 @@ const ConnectWallet = () => {
             <Tab.Content>
                 <Tab.Pane eventKey="mynft">
                     <div className='mynftMain mynftBox'>
-                        <div className='mynftBox__header'>
-                            <Button variant="secondary">View Demo <i className="fas fa-chevron-right"></i></Button>
-                        </div>
-                        <div className='mynftBox__content'>
-                            <Slider {...settings}>
-                                {
-                                    myNfts &&
-                                    myNfts.map((nft) => (
-                                        <MyNft data={nft} />
-                                    ))}
-                            </Slider>
-                        </div>
+                        {
+                            myNfts.length > 0 ?
+                                <>
+                                    <div className='mynftBox__header'>
+                                        <Button variant="secondary">View Demo <i className="fas fa-chevron-right"></i></Button>
+                                    </div>
+                                    <div className='mynftBox__content'>
+                                        <Slider {...settings}>
+                                            {
+                                                myNfts &&
+                                                myNfts.map((nft) => (
+                                                    <MyNft data={nft} />
+                                                ))}
+                                        </Slider>
+                                    </div>
+                                </>
+                                :
+                              <MyNftNo />
+                        }
+
                     </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="postTransection">

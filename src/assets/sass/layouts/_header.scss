@@ -2,6 +2,7 @@
     background: #d8f8ff;
     padding-top: 8px;
     padding-bottom: 0px;
+    z-index: 1005;
     .navbar-brand{
         padding: 0;
     }
@@ -19,6 +20,9 @@
         text-transform: uppercase;
         padding: 4px 21px;
     }
+    &.navbarchildstyle{
+        padding-top: 70px;
+    }
 }
 
 .navbar-nav {
@@ -29,5 +33,18 @@
         text-transform: uppercase;
         color: #6D7993 !important;
         margin-right: 24px;
+    }
+}
+.backLink{
+    font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+color: #6D7993;
+display: flex;
+align-items: center;
+    i{
+        margin-right: 10px;
+        font-size: 45px;
     }
 }
