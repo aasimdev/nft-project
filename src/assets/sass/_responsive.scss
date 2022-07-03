@@ -34,6 +34,7 @@
     }
 
     .nftContent {
+        padding-top: 60px;
 
         h1 {
             font-size: 40px;
@@ -63,6 +64,7 @@
 
 
         &__text {
+            margin-bottom: 20px;
             h2 {
                 font-size: 40px;
                 line-height: 40px;
@@ -268,6 +270,9 @@
 
     .connectWNavs .nav-item .nav-link {
         font-size: 20px;
+        font-size: 20px;
+    line-height: unset;
+    padding: 8px 16px;
     }
     .connectWNavs {
         margin-top: 33px;
@@ -323,6 +328,125 @@
         line-height: 22px;
         padding: 8px;
     }
+
+    .milestoneMain {
+        padding-top: 80px;
+        .milestoneImg{
+            height: 90vh;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .mynftBox__header .btn.btn-secondary {
+        padding: 8px 16px;
+    }
+    .mynftBox__content .slick-arrow {
+        width: 80px;
+        height: 80px;
+        svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    .attributeSlider {
+        margin-right: 50px;
+    }
+    .dropMain {
+        margin-top: 15px;
+    }
+    .listnftholder .btn.btn-secondary {
+        padding: 4px 10px;
+        min-width: 310px;
+    }
+    .nftType {
+        margin-top: 60px;
+    }
+    .nftType {
+        margin-top: 60px;
+    }
+    .nftType__carousel .slick-arrow {
+        width: 80px;
+        height: 80px;
+        svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+   
+    .ticketDetail .btn.btn-secondary {
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10px 20px;
+    }
+    .ticketDetail .ticketDetailPrice p span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+.ticketDetail .ticketDetailPrice p {
+    font-size: 23px;
+}
+.ticketDetail .ticketDetailPrice {
+    margin-top: 30px;
+}
+.ticketDetail__data.sealAttributeData {
+    margin-top: 24px;
+}
+.nftDetailModal .modal-dialog {
+    max-width: fit-content;
+}
+.nftDetailModal .modal-header {
+    padding: 10px 40px;
+}
+.nftDetailModal .modal-header .h4 {
+    font-size: 30px;
+}
+.ticketDetail {
+    padding: 30px 50px 30px;
+}
+.ticketDetail__img{
+img{
+    max-width: 480px;
+}
+}
+
+.ticketDetail__form {
+    max-width: 480px;
+}
+.marketStatus {
+    margin: 30px 0;
+}
+.nfttransactionhistory table thead th {
+    font-size: 19px;
+}
+.nfttransactionhistory table tbody td {
+    font-size: 17px;}
+    .dropslide img {
+        height: 90vh;
+    }
+
+    .nonftdropMain p {
+        font-size: 19px;
+    }
+    .nonftdropMain__box {
+        margin-top: 60px;
+    }
+    .nonftdropMain__box h4 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .nonftdropMain__box__content p {
+        font-size: 23px;
+    }
+    .nonftdropMain__box__content p span {
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 1200px) {
