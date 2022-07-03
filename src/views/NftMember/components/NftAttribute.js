@@ -25,7 +25,7 @@ const NftAttribute = () => {
                 </div>
                 <div className={`nftintro__attribute__box ${lockGeneral ? 'lockatribute' : ''}`}>
                     <Form>
-                        <Form.Group className="mb-2" controlId="serialType">
+                        <Form.Group className="" controlId="serialType">
                             <Form.Label>Series Type</Form.Label>
                             <Form.Select aria-label="Default select example">
                                 <option>Community</option>
@@ -65,7 +65,7 @@ const NftAttribute = () => {
                 </div>
                 <div className={`nftintro__attribute__box ${lockSeal ? 'lockatribute' : ''}`}>
                     <Form>
-                        <Form.Group className="mb-2" controlId="serialType">
+                        <Form.Group className="" controlId="serialType">
                             <Form.Label>Background Color</Form.Label>
                             <Form.Select aria-label="Default select example">
                                 <option>Select</option>
@@ -79,7 +79,7 @@ const NftAttribute = () => {
                                 <option value="7">Red</option>
                             </Form.Select>
                         </Form.Group>
-                        <Form.Group className="mb-2" controlId="serialType">
+                        <Form.Group className="" controlId="serialType">
                             <Form.Label>Skin color</Form.Label>
                             <Form.Select aria-label="Default select example">
                                 <option>Select</option>
@@ -93,7 +93,7 @@ const NftAttribute = () => {
                                 <option value="7">Red</option>
                             </Form.Select>
                         </Form.Group>
-                        <Form.Group className="mb-2" controlId="serialType">
+                        <Form.Group className="" controlId="serialType">
                             <Form.Label>Eye Wear</Form.Label>
                             <Form.Select aria-label="Default select example">
                                 <option>Nil</option>
@@ -106,7 +106,7 @@ const NftAttribute = () => {
                                 <option value="7">Face Shield</option>
                             </Form.Select>
                         </Form.Group>
-                        <Form.Group className="mb-2" controlId="serialType">
+                        <Form.Group className="" controlId="serialType">
                             <Form.Label>Head Gear</Form.Label>
                             <Form.Select aria-label="Default select example">
                                 <option>Nil</option>

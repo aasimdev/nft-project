@@ -1,5 +1,8 @@
 .nftmember {
-    padding-top: 82px;
+    padding-top: 50px;
+    .btn.btn-secondary {
+        padding: 0.375rem 0.75rem;
+    }
 }
 
 .disconn {
@@ -7,7 +10,7 @@
     border: 1px solid #99D3DF;
     border-radius: 7px;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 18px;
     line-height: 100%;
     /* identical to box height, or 28px */
     margin-left: 17px;
@@ -25,7 +28,7 @@
 }
 
 .connectWNavs {
-    margin-top: 43px;
+    margin-top: 33px;
 
     .nav-item {
         border-right: 6px solid #F5F5F5;
@@ -36,19 +39,19 @@
 
         .nav-link {
             font-weight: 700;
-            font-size: 25px;
-            line-height: 34px;
+        font-size: 20px;
+    line-height: unset;
+    padding: 8px 16px;
             color: #6D7993;
             background-color: #fff;
-            padding: 17px 22px;
             display: flex;
             align-items: center;
             cursor: pointer;
 
             .walletIconc {
-                width: 50px;
-                height: 50px;
-                margin-right: 14px;
+                width: 47px;
+        height: 32px;
+        margin-right: 0;
 
                 img {
                     width: 100%;
@@ -130,26 +133,27 @@
 
     p {
         font-weight: 400;
-        font-size: 25px;
-        line-height: 34px;
+        font-size: 20px;
+        line-height: 28px;
         color: #6D7993;
     }
 }
 
 .mynftMain {
     background: #F5F5F5;
-    height: 735px;
+    min-height: 655px;
+        height: auto;
 }
 
 .mynftBox {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 
     &__header {
-        margin-bottom: 45px;
+        margin-bottom: 21px;
         text-align: right;
 
         .btn.btn-secondary {
-            padding: 16px 17px;
+            padding: 8px 16px;
 
             i {
                 margin-right: 0;
@@ -167,8 +171,8 @@
 .mynftBox__content {
     .slick-arrow {
         border: 1px solid #6D7993;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         color: #6D7993;
         border-radius: 50%;
         z-index: 1;
@@ -185,8 +189,8 @@
         }
 
         svg {
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             fill: #6D7993;
         }
     }
@@ -205,16 +209,16 @@
     }
 
     td {
+        font-size: 18px;
+        line-height: unset;
+        padding: 0.5rem 0.5rem;
         font-weight: 400;
-        font-size: 25px;
-        line-height: 34px;
         color: rgba(18, 39, 44, 0.7);
-        padding: 18px 0px;
     }
 }
 
 .pasttransm {
-    padding: 34px 30px;
+    padding: 34px 11px;
 }
 
 .rewardsbox {
@@ -232,51 +236,52 @@
 }
 
 .nftContent {
-    padding-top: 100px;
+    padding-top: 60px;
 
     h1 {
         font-weight: 700;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 40px;
+        // line-height: 50px;
         text-transform: uppercase;
-        margin-bottom: 25px;
+        // margin-bottom: 25px;
         color: #6D7993;
 
     }
 
     p {
         font-weight: 400;
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 17px;
+        line-height: 24px;
+        // line-height: 34px;
         color: rgba(18, 39, 44, 0.7);
         max-width: 967px;
     }
 
     h2 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 23px;
+        line-height: 23px;
         text-transform: uppercase;
         color: #6D7993;
         margin-bottom: 18px;
     }
 
     h3 {
-        font-size: 35px;
-        line-height: 35px;
+        font-size: 22px;
+        line-height: 22px;
         text-transform: uppercase;
         color: #6D7993;
         margin-bottom: 26px;
     }
 
     &__reward {
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     &__box {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
         p {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
 
             &:last-of-type {
                 margin-bottom: 0;
@@ -285,12 +290,12 @@
 
         ul {
             counter-reset: number;
-            margin-top: 25px;
+            margin-top: 5px;
 
             li {
                 font-weight: 400;
-                font-size: 20px;
-                line-height: 34px;
+                font-size: 17px;
+                line-height: 1px;
                 color: rgba(18, 39, 44, 0.7);
                 display: flex;
                 align-items: center;
@@ -338,23 +343,23 @@
 
         h2 {
             font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 8px;
             text-transform: uppercase;
-            margin-bottom: 25px;
             color: #6D7993;
         }
 
         p {
             font-weight: 400;
             font-size: 20px;
-            line-height: 34px;
+    line-height: 34px;
             color: rgba(18, 39, 44, 0.7);
             max-width: 967px;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
 
             &:last-of-type {
-                margin-bottom: 0;
+                margin-bottom: 30px;
             }
         }
     }
@@ -368,20 +373,20 @@
     }
 
     &__header {
-        margin-bottom: 12px;
+        margin-bottom: 5px;
         display: flex;
         align-items: end;
         justify-content: space-between;
 
         h4 {
-            font-size: 25px;
+            font-size: 18px;
             line-height: 100%;
             color: #6D7993;
         }
 
         &__locker {
             font-weight: 700;
-            font-size: 15px;
+            font-size: 14px;
             line-height: 1;
             cursor: pointer;
             color: #99D3DF;
@@ -398,14 +403,14 @@
         background: #FFFFFF;
         box-shadow: 0px 5px 15px rgba(140, 173, 180, 0.2);
         border-radius: 12px;
-        padding: 16px;
+        padding: 10px;
 
         p {
             font-weight: 400;
-            font-size: 20px;
+            font-size: 15px;
             line-height: 100%;
             color: rgba($color: #323B4D, $alpha: 0.5);
-            margin-top: 12px;
+            margin-top: 6px;
         }
 
 
@@ -413,16 +418,16 @@
 
 
         #serialnumber {
-            padding-left: 34px;
+            padding-left: 29px;
         }
 
 
 
         .btn.btn-secondary {
-            font-size: 20px;
-            line-height: 27px;
-            padding: 4px 20px;
-            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1px;
+            padding: 0px 13px;
+            margin-top: 10px;
         }
 
         &.lockatribute {
@@ -439,14 +444,16 @@
     }
 }
 
+
+
 .input-group-text {
     background: transparent;
     border: 0;
     padding: 0;
     color: rgba($color: #323B4D, $alpha: 0.4);
     position: absolute;
-    top: 45px;
-    left: 12px;
+    top: 43px;
+    left: 9px;
 }
 
 .form-select,
@@ -458,7 +465,7 @@
     font-size: 16px;
     line-height: 100%;
     /* identical to box height, or 20px */
-    height: 38px;
+    height: 44px;
     color: #323B4D;
     background-color: transparent;
 
@@ -470,16 +477,16 @@
 
 .form-label {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 100%;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
     color: #6D7993;
 }
 
 .resetFIlter {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 34px;
+    font-size: 14px;
+        line-height: 30px;
     text-decoration-line: underline;
     cursor: pointer;
     color: #99D3DF;
@@ -489,18 +496,19 @@
     margin-left: 20px;
     background: #F5F5F5;
     padding: 6px;
+    margin-right: 50px;
 
     .connectWNavs {
         margin-top: 0;
 
         .nav-item {
             .nav-link {
-                font-size: 35px;
                 justify-content: center;
-                padding: 12px 22px;
+                font-size: 23px;
+                padding: 6px 8px;
 
                 sup {
-                    font-size: 25px;
+                    font-size: 15px;
                 }
 
                 span {
@@ -519,18 +527,19 @@
 
     img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
+        height: 654px;
     }
 }
 
 .dropMain {
-    margin-top: 23px;
+    // margin-top: 23px;
+    margin-top: 15px;
 
     .slick-arrow {
         border: 1px solid #6D7993;
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         color: #6D7993;
         border-radius: 50%;
         z-index: 1;
@@ -547,8 +556,8 @@
         }
 
         svg {
-            width: 36px;
-            height: 36px;
+            width: 30px;
+            height: 30px;
             fill: #6D7993;
         }
     }
@@ -558,24 +567,24 @@
     margin-top: 30px;
 
     h3 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 22px;
+        line-height: 1;
         text-transform: uppercase;
         color: #6D7993;
-        margin-bottom: 18px;
+        margin-bottom: 0px;
     }
 
     &__box {
         background: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 5px 15px rgba(140, 173, 180, 0.2);
         border-radius: 12px;
-        padding: 20px 23px 36px;
+        padding: 18px 17px 18px;
 
         &__stats {
             display: flex;
-            justify-content: center;
-            max-width: 900px;
-            margin: 0 auto 48px;
+            // justify-content: center;
+            max-width: 720px;
+            margin: 20px 0px 20px;
         }
 
         &__stat {
@@ -585,15 +594,15 @@
             span {
                 font-weight: 400;
                 font-size: 20px;
-                line-height: 34px;
+                // line-height: 34px;
                 color: rgba(18, 39, 44, 0.7);
-                margin-bottom: 2px;
+                // margin-bottom: 2px;
             }
 
             h5 {
                 font-weight: 700;
                 font-size: 30px;
-                line-height: 34px;
+                line-height: 30px;
                 color: rgba(18, 39, 44, 0.7);
             }
         }
@@ -602,8 +611,10 @@
 
 .listnftholder {
     .btn.btn-secondary {
-        padding: 8px 11px;
-        min-width: 389px;
+        padding: 4px 10px;
+        min-width: 310px;
+        // padding: 8px 11px;
+        // min-width: 389px;
 
         svg {
             margin-right: 32px;
@@ -615,7 +626,8 @@
 .nftTypes {}
 
 .nftType {
-    margin-top: 70px;
+    // margin-top: 70px;
+    margin-top: 60px;
 
     &__title {
         display: flex;
@@ -623,16 +635,16 @@
 
         h3 {
             font-weight: 700;
-            font-size: 30px;
-            line-height: 30px;
+            font-size: 23px;
+        line-height: 23px;
             text-transform: uppercase;
             color: #6D7993;
         }
 
         a {
             font-weight: 400;
-            font-size: 20px;
-            line-height: 34px;
+            font-size: 16px;
+        line-height: 20px;
             text-decoration-line: underline;
             color: #99D3DF;
             margin-left: 15px;
@@ -646,13 +658,13 @@
     align-items: center;
 
     &__supplyleft {
-        margin-left: 33px;
-        padding-top: 22px;
+        margin-left: 20px;
+        padding-top: 10px;
 
         p {
             font-weight: 400;
-            font-size: 20px;
-            line-height: 34px;
+            font-size: 18px;
+        line-height: 1;
 
             color: rgba(18, 39, 44, 0.5);
 
@@ -718,12 +730,12 @@
 }
 
 .nftType__carousel {
-    margin-top: 60px;
+    margin-top: 0px;
 
     .slick-arrow {
         border: 1px solid #6D7993;
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         color: #6D7993;
         border-radius: 50%;
         z-index: 1;
@@ -740,8 +752,8 @@
         }
 
         svg {
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             fill: #6D7993;
         }
 
@@ -780,7 +792,7 @@
             .form-check-label {
                 margin-left: 7px;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 18px;
                 line-height: 100%;
 
 
@@ -809,8 +821,8 @@
 
     span {
         font-weight: 400;
-        font-size: 25px;
-        line-height: 34px;
+        font-size: 18px;
+        line-height: 1;
         color: #E40A0A;
 
         transform: matrix(1, 0, 0, 1, 0, 0);
@@ -818,16 +830,17 @@
 
     p {
         font-weight: 400;
-        font-size: 25px;
-        line-height: 34px;
+        font-size: 18px;
+        line-height: 1;
         color: rgba(18, 39, 44, 0.7);
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
 
     h6 {
         font-weight: 700;
-        font-size: 25px;
-        line-height: 34px;
+        font-size: 17px;
+        line-height: 42px;
+        margin-top: -6px;
         color: rgba(18, 39, 44, 0.7);
 
         transform: matrix(1, 0, 0, 1, 0, 0);
@@ -839,7 +852,7 @@
 
     p {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 100%;
         margin-top: 6px;
         color: #323B4D;
@@ -862,7 +875,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 100%;
-        height: 38px;
+        height: 44px;
         color: #323B4D;
         background-color: transparent;
 
@@ -879,7 +892,7 @@
     }
 
     #searchSerialnbr {
-        padding-left: 34px;
+        padding-left: 30px;
     }
 
 }
@@ -887,8 +900,8 @@
 .nftsale__instruction {
     p {
         font-weight: 400;
-        font-size: 20px;
-        line-height: 100%;
+        font-size: 17px;
+        line-height: 17px;
         color: #6D7993;
 
         span {
@@ -901,14 +914,15 @@
 }
 
 .nftsub {
-    padding-top: $headerHeight + 140px;
+    // padding-top: $headerHeight + 140px;
+    padding-top: 45px;
 
     h1 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 23px;
         text-transform: uppercase;
         color: #6D7993;
-        margin-bottom: 43px;
     }
 
     .nftdrop__searchserial {
@@ -922,7 +936,7 @@
     }
 
     .nftdrop__serial {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -970,7 +984,7 @@
         .btn-link {
             position: absolute;
             right: 30px;
-            bottom: -1px;
+            bottom: 2px;
 
             img {
                 max-width: 25px;
@@ -985,7 +999,7 @@
 
 .nftaskingprice {
     max-width: 438px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 
     .form-select {
         max-width: 159px;
@@ -1132,10 +1146,10 @@
                 background: #99D3DF;
                 color: #000;
                 font-weight: 400;
-                font-size: 30px;
-                line-height: 30px;
+                font-size: 22px;
+                line-height: 22px;
+                padding: 8px;
                 text-transform: uppercase;
-                padding: 25px 23px;
                 color: #FFFFFF;
             }
         }
@@ -1145,11 +1159,11 @@
 
             td {
                 font-weight: 400;
-                font-size: 30px;
-                line-height: 30px;
+                font-size: 18px;
+        line-height: 30px;
+        padding: 8px;
                 text-transform: uppercase;
                 color: #000000;
-                padding: 25px 23px;
                 border-bottom: 3px solid rgba($color: #000000, $alpha: 0.3);
             }
         }
@@ -1197,7 +1211,8 @@ input[type=number] {
 
 .nftDetailModal {
     .modal-dialog {
-        max-width: 1000px;
+        // max-width: 1000px;
+        max-width: fit-content;
     }
 
     .modal-content {
@@ -1206,27 +1221,34 @@ input[type=number] {
     }
 
     .modal-header {
-        padding: 28px 40px;
+        // padding: 28px 40px;
+        padding: 10px 40px;
         border-bottom: 3px solid rgba($color: #000000, $alpha: 0.1);
 
         .h4 {
             font-weight: 700;
             text-transform: uppercase;
             color: #6D7993;
-            font-size: 40px;
+            // font-size: 40px;
+            font-size: 30px;
         }
     }
 }
 
 .ticketDetail {
-    padding: 30px 30px 50px;
+    // padding: 30px 30px 50px;
+    padding: 30px 50px 30px;
 
     &__img {
         text-align: center;
+        img{
+            max-width: 480px;
+        }
     }
 
     &__form {
-        max-width: 750px;
+        // max-width: 750px;
+        max-width: 480px;
         margin: auto;
     }
 
@@ -1241,7 +1263,8 @@ input[type=number] {
         }
 
         &.sealAttributeData {
-            margin-top: 33px;
+            // margin-top: 33px;
+            margin-top: 24px;
 
             .inputgrp {
                 max-width: 185px;
@@ -1259,12 +1282,13 @@ input[type=number] {
     }
 
     .ticketDetailPrice {
-        margin-top: 60px;
+        // margin-top: 60px;
+        margin-top: 30px;
 
         p {
             font-weight: 400;
-            font-size: 25px;
-            line-height: 100%;
+            font-size: 23px;
+            line-height: 30px;
             color: #6D7993;
 
             span {
@@ -1278,10 +1302,10 @@ input[type=number] {
     .btn.btn-secondary {
         display: block;
         width: 100%;
-        margin-top: 45px;
-        font-size: 35px;
-        line-height: 41px;
-        padding: 18px 21px;
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10px 20px;
 
         &[disabled] {
             background: #6D7993;
@@ -1310,7 +1334,8 @@ input[type=number] {
 }
 
 .marketStatus {
-    margin: 45px 0;
+    // margin: 45px 0;
+    margin: 30px 0;
 
     h5 {
         font-size: 25px;
@@ -1349,7 +1374,8 @@ input[type=number] {
         thead {
             th {
                 font-weight: 700;
-                font-size: 25px;
+                // font-size: 25px;
+                font-size: 19px;
                 line-height: 25px;
                 text-transform: uppercase;
                 color: #6D7993;
@@ -1361,7 +1387,8 @@ input[type=number] {
             border-top: 3px solid rgba($color: #000000, $alpha: 0.5);
 
             td {
-                font-size: 25px;
+                // font-size: 25px;
+                font-size: 17px;
                 line-height: 25px;
                 text-transform: uppercase;
                 color: #6D7993;
@@ -1428,7 +1455,8 @@ input[type=number] {
     margin: auto;
     p {
         font-weight: 400;
-        font-size: 30px;
+        // font-size: 30px;
+        font-size: 19px;
         line-height: 100%;
         color: #323B4D;
         opacity: 0.5;
@@ -1439,14 +1467,17 @@ input[type=number] {
         box-shadow: 0px 5px 15px rgba(140, 173, 180, 0.2);
         border-radius: 15px;
         padding: 36px 18px 75px;
-        margin-top: 80px;
+        // margin-top: 80px;
+        margin-top: 60px;
 
         h4 {
             font-weight: 700;
-            font-size: 40px;
+            // font-size: 40px;
             line-height: 100%;
             color: #FFFFFF;
-            margin-bottom: 40px;
+            // margin-bottom: 40px;
+            font-size: 36px;
+            margin-bottom: 30px;
         }
 
         &__content {
@@ -1454,7 +1485,8 @@ input[type=number] {
 
             p {
                 font-weight: 400;
-                font-size: 30px;
+                font-size: 23px;
+                // font-size: 30px;
                 line-height: 100%;
                 color: #FFFFFF;
                 opacity: 1;
@@ -1465,6 +1497,7 @@ input[type=number] {
 
                 span {
                     font-weight: 700;
+                    font-size: 25px;
                 }
             }
 

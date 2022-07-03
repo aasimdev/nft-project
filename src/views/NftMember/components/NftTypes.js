@@ -262,7 +262,7 @@ const NftTypes = () => {
                 <div className='ticketDetail__data'>
                   <h4>General Attributes</h4>
                   <div className='d-sm-flex'>
-                    <Form.Group className="mb-2 seriestypeattr" controlId="seriesTypem">
+                    <Form.Group className=" seriestypeattr" controlId="seriesTypem">
                       <Form.Label>Series Type</Form.Label>
                       <Form.Control type="text" value="Community" />
                     </Form.Group>
@@ -276,13 +276,13 @@ const NftTypes = () => {
                   <h4>Seal Attributes</h4>
                   <Row>
                     <Col sm={4}>
-                      <Form.Group className="mb-2 inputgrp" controlId="seriesTypem">
+                      <Form.Group className=" inputgrp" controlId="seriesTypem">
                         <Form.Label>Seal Color</Form.Label>
                         <Form.Control type="text" value="Yellow" />
                       </Form.Group>
                     </Col>
                     <Col sm={4}>
-                      <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
                         <Form.Label>Skin color</Form.Label>
                         <Form.Control type="text" value="Blue" />
                       </Form.Group>
@@ -290,19 +290,19 @@ const NftTypes = () => {
                   </Row>
                   <Row>
                     <Col sm={4}>
-                      <Form.Group className="mb-2 inputgrp" controlId="seriesTypem">
+                      <Form.Group className=" inputgrp" controlId="seriesTypem">
                         <Form.Label>Eye</Form.Label>
                         <Form.Control type="text" value="VR Goggle" />
                       </Form.Group>
                     </Col>
                     <Col sm={4}>
-                      <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
                         <Form.Label>Headgear</Form.Label>
                         <Form.Control type="text" value="Gentleman" />
                       </Form.Group>
                     </Col>
                     <Col sm={4}>
-                      <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
                         <Form.Label>Mouth</Form.Label>
                         <Form.Control type="text" value="Tobacco Pipe" />
                       </Form.Group>
@@ -364,7 +364,7 @@ const NftTypes = () => {
               <div className='ticketDetail__data'>
                 <h4>General Attributes</h4>
                 <div className='d-sm-flex'>
-                  <Form.Group className="mb-2 seriestypeattr" controlId="seriesTypem">
+                  <Form.Group className=" seriestypeattr" controlId="seriesTypem">
                     <Form.Label>Series Type</Form.Label>
                     <Form.Control type="text" value="Community" />
                   </Form.Group>
@@ -378,13 +378,13 @@ const NftTypes = () => {
                 <h4>Seal Attributes</h4>
                 <Row>
                   <Col sm={4}>
-                    <Form.Group className="mb-2 inputgrp" controlId="seriesTypem">
+                    <Form.Group className=" inputgrp" controlId="seriesTypem">
                       <Form.Label>Seal Color</Form.Label>
                       <Form.Control type="text" value="Yellow" />
                     </Form.Group>
                   </Col>
                   <Col sm={4}>
-                    <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                    <Form.Group className=" inputgrp" controlId="seriesnumberm">
                       <Form.Label>Skin color</Form.Label>
                       <Form.Control type="text" value="Blue" />
                     </Form.Group>
@@ -392,19 +392,19 @@ const NftTypes = () => {
                 </Row>
                 <Row>
                   <Col sm={4}>
-                    <Form.Group className="mb-2 inputgrp" controlId="seriesTypem">
+                    <Form.Group className=" inputgrp" controlId="seriesTypem">
                       <Form.Label>Eye</Form.Label>
                       <Form.Control type="text" value="VR Goggle" />
                     </Form.Group>
                   </Col>
                   <Col sm={4}>
-                    <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                    <Form.Group className=" inputgrp" controlId="seriesnumberm">
                       <Form.Label>Headgear</Form.Label>
                       <Form.Control type="text" value="Gentleman" />
                     </Form.Group>
                   </Col>
                   <Col sm={4}>
-                    <Form.Group className="mb-2 inputgrp" controlId="seriesnumberm">
+                    <Form.Group className=" inputgrp" controlId="seriesnumberm">
                       <Form.Label>Mouth</Form.Label>
                       <Form.Control type="text" value="Tobacco Pipe" />
                     </Form.Group>

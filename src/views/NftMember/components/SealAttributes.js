@@ -84,7 +84,7 @@ const SealAttributes = () => {
                 <Form>
                     <Row>
                         <Col sm={6}>
-                            <Form.Group className="mb-2" controlId="headgear">
+                            <Form.Group className="" controlId="headgear">
                                 <Form.Label>Head Gear</Form.Label>
                                 <Select
                                     isMulti
@@ -102,7 +102,7 @@ const SealAttributes = () => {
                             </Form.Group>
                         </Col>
                         <Col sm={6}>
-                            <Form.Group className="mb-2" controlId="sealcolor">
+                            <Form.Group className="" controlId="sealcolor">
                                 <Form.Label>Seal Color</Form.Label>
                                 <Select
                                     isMulti
@@ -120,7 +120,7 @@ const SealAttributes = () => {
                             </Form.Group>
                         </Col>
                         <Col sm={6}>
-                            <Form.Group className="mb-2" controlId="mouth">
+                            <Form.Group className="" controlId="mouth">
                                 <Form.Label>Mouth</Form.Label>
                                 <Select
                                     isMulti
@@ -138,7 +138,7 @@ const SealAttributes = () => {
                             </Form.Group>
                         </Col>
                         <Col sm={6}>
-                            <Form.Group className="mb-2" controlId="skincolor">
+                            <Form.Group className="" controlId="skincolor">
                                 <Form.Label>Skin color</Form.Label>
                                 <Select
                                     isMulti
@@ -156,7 +156,7 @@ const SealAttributes = () => {
                             </Form.Group>
                         </Col>
                         <Col sm={6}>
-                            <Form.Group className="mb-2" controlId="eyewear">
+                            <Form.Group className="" controlId="eyewear">
                                 <Form.Label>Eye Wear</Form.Label>
                                 <Select
                                     isMulti
