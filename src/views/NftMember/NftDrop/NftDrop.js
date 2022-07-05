@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Form, InputGroup, Container, Row, Col, Button, Image } from 'react-bootstrap'
+import { Form, InputGroup, Container, Row, Col, Button, Image, Modal } from 'react-bootstrap'
 
 import filterIcon from '../../../assets/img/filter.png'
 import NftTypeBox from '../components/NftTypeBox';
@@ -11,12 +11,16 @@ import Select, { components } from 'react-select';
 import { seriestype, nftDropList } from '../../../data/data';
 import NoNftDrop from '../../NoContentExist/NoNftDrop';
 
+import nftDummy from '../../../assets/img/greendummy-lg.jpg'
+
 
 const NftDrop = () => {
   const [selected, setSelected] = useState([]);
   const [searchFilter, setSearchFilter] = useState(false);
   const [available, setAvailable] = useState()
-
+  const [nftDropModal, setNftDropModal] = useState(false);
+  const [nftSaleModal, setNftSaleModal] = useState(false);
+  const [nftSoldModal, setNftSoldModal] = useState(false);
 
   const MoreSelectedBadge = ({ items }) => {
 
@@ -68,6 +72,22 @@ const NftDrop = () => {
   const availableHandleChange = (event) => {
     console.log(event);
   }
+
+
+  const nftDropHandler = event => {
+    let eventTarget = event.currentTarget.dataset.type;
+    let eventSold = event.currentTarget.dataset.sold;
+    if (eventTarget == 'NFT-Drop') {
+      setNftDropModal(!nftDropModal);
+      if (eventSold == 'true') {
+        setNftSoldModal(true);
+      }
+    } else if (eventTarget == 'For-Sale' || eventTarget == 'Recent-Transaction') {
+      setNftSaleModal(!nftSaleModal);
+    }
+
+  }
+
 
   return (
     <Container>
@@ -127,7 +147,11 @@ const NftDrop = () => {
                   {nftDropList &&
                     nftDropList.map((item) => (
                       <Col>
-                        <NftTypeBox item={item} />
+                        <NftTypeBox
+                          item={item}
+                          nftDropHandler={nftDropHandler}
+                          type="NFT-Drop"
+                        />
                       </Col>
                     ))
                   }
@@ -143,6 +167,108 @@ const NftDrop = () => {
           : <NoNftDrop />}
 
       </div>
+
+
+      {/* For NFT Drop Modal */}
+      <Modal
+        size="lg"
+        centered
+        show={nftDropModal}
+        onHide={() => setNftDropModal(false)}
+        className="nftDetailModal"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            TICKET DETAILS
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body className='p-0'>
+          <Form>
+            <div className='ticketDetail'>
+              <div className='ticketDetail__img'>
+                <Image src={nftDummy} alt="ticket detail" />
+              </div>
+              <div className='ticketDetail__form'>
+                <div className='ticketDetail__data'>
+                  <h4>General Attributes</h4>
+                  <div className='d-sm-flex'>
+                    <Form.Group className=" seriestypeattr" controlId="seriesTypem">
+                      <Form.Label>Series Type</Form.Label>
+                      <Form.Control type="text" value="Community" />
+                    </Form.Group>
+                    <Form.Group className="mb-0 seriesnbr" controlId="seriesnumberm">
+                      <Form.Label>Serial Number</Form.Label>
+                      <Form.Control type="number" value="02202" />
+                    </Form.Group>
+                  </div>
+                </div>
+                <div className='ticketDetail__data sealAttributeData'>
+                  <h4>Seal Attributes</h4>
+                  <Row>
+                    <Col sm={4}>
+                      <Form.Group className=" inputgrp" controlId="seriesTypem">
+                        <Form.Label>Seal Color</Form.Label>
+                        <Form.Control type="text" value="Yellow" />
+                      </Form.Group>
+                    </Col>
+                    <Col sm={4}>
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
+                        <Form.Label>Skin color</Form.Label>
+                        <Form.Control type="text" value="Blue" />
+                      </Form.Group>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col sm={4}>
+                      <Form.Group className=" inputgrp" controlId="seriesTypem">
+                        <Form.Label>Eye</Form.Label>
+                        <Form.Control type="text" value="VR Goggle" />
+                      </Form.Group>
+                    </Col>
+                    <Col sm={4}>
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
+                        <Form.Label>Headgear</Form.Label>
+                        <Form.Control type="text" value="Gentleman" />
+                      </Form.Group>
+                    </Col>
+                    <Col sm={4}>
+                      <Form.Group className=" inputgrp" controlId="seriesnumberm">
+                        <Form.Label>Mouth</Form.Label>
+                        <Form.Control type="text" value="Tobacco Pipe" />
+                      </Form.Group>
+                    </Col>
+                  </Row>
+
+
+                </div>
+
+                {nftSoldModal ?
+                  <>
+                    <Button variant="secondary" disabled type="submit">
+                      Sold
+                    </Button>
+                    <div className='nftsoldbtns'>
+                      <a href="#">View in Opensea</a>
+                      <a href="#">View in Etherscan</a>
+                    </div>
+                  </>
+                  :
+                  <>
+                    <div className='ticketDetailPrice'>
+                      <p>Price: <span>0.1 ETH</span> + Gas </p>
+                    </div>
+                    <Button variant="secondary" type="submit">
+                      Mint Ticket
+                    </Button>
+                  </>
+                }
+
+              </div>
+            </div>
+          </Form>
+        </Modal.Body>
+
+      </Modal>
     </Container>
   )
 }

@@ -23,7 +23,7 @@ const Feature = (props) => {
     const [player, setPlayer] = useState(null);
 
     const settingsThumbs = {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
         centerMode: true,
@@ -87,7 +87,7 @@ const Feature = (props) => {
         <div className='feature' >
    
                 <div className='featureInner' style={{ background: `url(${feature.bgAnimation}) no-repeat center / 100%` }}>
-                    <div className={`featureBox ${feature.title == "Advisory" ? "advisorybox" : feature.title == "Renovation" ? "renovationBox" : feature.title == "Home Services" ? "homeserviceBox" : feature.title == "E-Commerce" ? "ecommerceBox" : feature.title == "Community" ? "communityBox" : ''}`}>
+                    <div className={`featureBox ${feature.title == "Advisory" ? "advisorybox" : feature.title == "Renovation" ? "renovationBox" : feature.title == "Home Services" ? "homeserviceBox" : feature.title == "E-Commerce" ? "ecommerceBox" : feature.title == "Community" ? "communityBox" : feature.title == "Property" ? "propertyBox" : ''}`}>
                         <h2>{feature.title}</h2>
                         <div className='featureBox__keys'>
                             <div className='featureBox__keys__key'>

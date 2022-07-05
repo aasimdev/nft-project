@@ -915,6 +915,7 @@
 
 .nftsub {
     // padding-top: $headerHeight + 140px;
+    min-height: calc(100vh - 357.73px);
     padding-top: 45px;
 
     h1 {
@@ -1323,13 +1324,13 @@ input[type=number] {
         border: 2px solid #99D3DF;
         border-radius: 12px;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 21px;
         line-height: 41px;
         text-align: center;
         color: #99D3DF;
-        padding: 18px 21px;
+        padding: 8px 21px;
         display: inline-block;
-        min-width: 340px;
+        min-width: 270px;
     }
 }
 
