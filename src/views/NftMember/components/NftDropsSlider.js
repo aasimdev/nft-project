@@ -33,7 +33,7 @@ const NftDropsSlider = () => {
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="2drop"> 2<sup>nt</sup> <span>Drop</span></Nav.Link>
+                        <Nav.Link eventKey="2drop"> 2<sup>nd</sup> <span>Drop</span></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="3drop"> 3<sup>rd</sup> <span>Drop</span></Nav.Link>
