@@ -38,6 +38,36 @@ const NftTypes = () => {
     prevArrow: <div className='slickactions'><ChevronLeft /></div>,
     slidesPerRow: 2,
     centerMode: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3.2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2.5,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+        }
+      }
+    ]
   };
 
 
@@ -175,7 +205,7 @@ const NftTypes = () => {
 
             </div>
           </>
-          : <NoNftDrop /> }
+          : <NoNftDrop />}
       </div>
 
       {/* For Sale */}

@@ -19,10 +19,10 @@ const NftIntro = () => {
             </div>
 
             <Row>
-                <Col md={3}>
+                <Col lg={3}>
                     <NftAttribute />
                 </Col>
-                <Col md={9}>
+                <Col lg={9}>
                     <NftDropsSlider />
                 </Col>
             </Row>

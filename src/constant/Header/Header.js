@@ -22,7 +22,7 @@ const Header = () => {
     }, [pathname, hash, key]);
 
     return (
-        <Navbar expand="lg" fixed={`${pathname == '/' ? 'top' : 'static'}`} className={pathname.includes('/for-sale') || pathname.includes('/nft-drop') || pathname.includes('/past-transaction') || pathname.includes('/list-of-ticket-holder') ? 'navbarchildstyle' : null}>
+        <Navbar expand="sm" fixed={`${pathname == '/' ? 'top' : 'static'}`} className={pathname.includes('/for-sale') || pathname.includes('/nft-drop') || pathname.includes('/past-transaction') || pathname.includes('/list-of-ticket-holder') ? 'navbarchildstyle' : null}>
             <Container>
                 {
                     pathname.includes('/for-sale') ||

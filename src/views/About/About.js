@@ -8,7 +8,7 @@ const About = () => {
         <section className='aboutMain'>
             <Container>
                 <Row>
-                    <Col lg={7}>
+                    <Col lg={{span: 7, order: 0}} xs={{span: 12, order: 1}}>
                         <div className='aboutContent'>
                             <h1>aBOUT US</h1>
                             <p>In years to come, future historians may very well give a one-word answer for wong’s rise to the summit.Well, one acronym, a dash and a number. Covid-19 . But that would only be a scratching the surface of the story. Unprecedented in scale, unlike any other challenge singapore <br />
@@ -17,7 +17,7 @@ const About = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col lg={5}>
+                    <Col lg={{span: 5, order: 1}} xs={{span: 12, order: 0}}>
                         <div className='aboutMan'>
                             <Image src={AboutImg} alt="about" />
                         </div>

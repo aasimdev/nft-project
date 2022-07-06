@@ -57,11 +57,14 @@ const Feature = (props) => {
                 breakpoint: 991,
                 settings: {
                   vertical: false,
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
                 }
               },
             {
               breakpoint: 600,
               settings: {
+                vertical: false,
                 slidesToShow: 2,
                 slidesToScroll: 1,
               }

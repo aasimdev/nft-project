@@ -150,7 +150,7 @@ const PastTransaction = () => {
                         }
                         <div className="nftType__carousel">
                             <div className='nftDrop__nfts'>
-                                <Row className='row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-12'>
+                                <Row className='row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2'>
                                     {recentTransactions &&
                                         recentTransactions.map((item) => (
                                             <Col>

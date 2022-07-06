@@ -12,8 +12,9 @@ const Welcome = () => {
     return (
         <section className='welcomeMain'>
 
-                <Row className='align-items-center'>
-                    <Col lg={6}>
+            <Row className='align-items-center'>
+                <Col lg={6}>
+                    <div className='welcomeContant desktopWelcome'>
                         <div className='welcomeText'>
                             <h1>Welcome to the House of All Trades</h1>
                             <h4>we consider our impact on people and the planet in everything we do. And we continue to ask ourselves how we can make it better. </h4>
@@ -29,14 +30,15 @@ const Welcome = () => {
                                 <BigPlayButton position="center" />
                             </Player>
                         </div>
-                    </Col>
-                    <Col lg={6}>
-                        <div className='welcomeImg text-center'>
-                            <Image src={sideImage} alt="welcome" />
-                        </div>
-                    </Col>
-                </Row>
-         
+                    </div>
+                </Col>
+                <Col lg={6}>
+                    <div className='welcomeImg text-center d-none d-lg-block'>
+                        <Image src={sideImage} alt="welcome" />
+                    </div>
+                </Col>
+            </Row>
+
         </section>
     )
 }

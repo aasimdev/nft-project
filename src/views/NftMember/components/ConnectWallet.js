@@ -27,7 +27,16 @@ const ConnectWallet = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         nextArrow: <div className='slickactions'><ChevronRight /></div>,
-        prevArrow: <div className='slickactions'><ChevronLeft /></div>
+        prevArrow: <div className='slickactions'><ChevronLeft /></div>,
+        responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+          ]
     };
 
     return (

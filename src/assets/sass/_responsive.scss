@@ -13,9 +13,10 @@
 @media (max-width: 1600px) {
 
     .milestoneMain {
-        .milestoneImg{
+        .milestoneImg {
             height: 90vh;
-            img{
+
+            img {
                 height: 100%;
                 width: 100%;
                 object-fit: contain;
@@ -26,11 +27,11 @@
     .featureBox {
         min-height: 340px;
     }
-    
+
     .feature__videowrap {
         height: calc(100vh - 440px);
     }
-    
+
 }
 
 @media (max-width: 1200px) {
@@ -49,6 +50,24 @@
             width: 100% !important;
         }
     }
+
+    .nftType__carousel .slick-arrow.slick-next {
+        right: -25px;
+    }
+
+    .nftType__carousel .slick-arrow.slick-prev {
+        left: -25px;
+    }
+
+    .featureCharacter {
+        bottom: -24px;
+        right: 3%;
+        width: 234px;
+    }
+
+    .featureBox.propertyBox .featureCharacter img {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -57,12 +76,26 @@
         transform: none;
         background: #fff;
         padding: 8px 24px 20px 22px;
-        margin-left: -100%;
+        // margin-left: -100%;
         transition: 0.5s ease;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-left: -100%;
+        transition: 0.3s ease;
+        z-index: 1041;
+        height: 100vh;
+        overflow-y: auto;
 
         &.active {
             margin-left: 0;
         }
+    }
+
+
+
+    .aboutMain {
+        padding-top: 30px;
     }
 
     .featureInner {
@@ -71,5 +104,775 @@
 
     .featureBox__keys {
         display: block;
+    }
+
+    .aboutMan {
+        max-width: 350px;
+        margin-left: auto;
+    }
+
+    .aboutContent {
+        padding-top: 0;
+        margin-top: -65px;
+    }
+
+    .nftBox__img {
+        height: 250px;
+    }
+
+    .mynftMain {
+        min-height: auto;
+    }
+
+    .pasttranstable th {
+        font-size: 22px;
+        line-height: 31px;
+    }
+
+    .rewardsbox {
+        min-height: 518px;
+    }
+
+    .mobileOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1040;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba($color: #6D7993, $alpha: 0.9);
+        height: 100%;
+    }
+
+    .nftintroAttri {
+        background: #FFFFFF;
+        border: 1px solid #C4CBD2;
+        box-shadow: 0px 5px 15px rgba(140, 173, 180, 0.2);
+        border-radius: 12px;
+        width: 265px;
+        padding: 16px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-left: -100%;
+        transition: 0.3s ease;
+        z-index: 1041;
+        height: 100vh;
+        overflow-y: auto;
+
+        &.active {
+            margin-left: 0;
+        }
+    }
+
+    .attributeSlider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nftsub h1 {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    // .featureBox__keys__key {
+    //     margin-bottom: 72px;
+
+    // }
+
+    .featureBox__keys {
+        .featureBox__keys__key {
+            margin-bottom: 28px;
+
+            &:first-of-type {
+                margin-bottom: 72px;
+            }
+        }
+    }
+
+
+    .featureBox.homeserviceBox .featureCharacter img,
+    .featureBox.advisorybox .featureCharacter img,
+    .featureBox.renovationBox .featureCharacter img,
+    .featureBox.ecommerceBox .featureCharacter img,
+    .featureBox.communityBox .featureCharacter img {
+        max-width: 100%;
+    }
+
+    .featureBox.homeserviceBox .featureCharacter,
+    .featureBox.advisorybox .featureCharacter,
+    .featureBox.renovationBox .featureCharacter,
+    .featureBox.ecommerceBox .featureCharacter,
+    .featureBox.communityBox .featureCharacter {
+        right: 5%;
+    }
+
+    .feature__videowrap {
+        display: block;
+    }
+
+    .slider-galeria {
+        width: 100%;
+        height: 250px;
+    }
+
+    .feature__videowrap {
+        height: auto;
+    }
+
+    .thumbnail-slider-wrap {
+        width: calc(100% - 40px);
+        padding-left: 0;
+        margin: 12px auto 0;
+    }
+
+    .thumbnail-slider-wrap .slick-next {
+        bottom: unset;
+        right: -45px;
+        top: 50%;
+        transform: rotate(270deg);
+        left: unset;
+    }
+
+    .thumbnailBox {
+        margin-bottom: 0;
+    }
+
+    .thumbnail-slider-wrap .slick-prev {
+        left: -45px;
+    }
+
+    .thumbnail_img {
+        width: 160px;
+    }
+
+    .desktopWelcome {
+        .welcomeText h1 {
+            display: none;
+        }
+
+        .welcomeText h4 {
+            display: none;
+        }
+
+        .welcomeText {
+            padding-top: 20px;
+        }
+    }
+
+    .welcomeContant {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .welcomeVideo {
+        padding-top: 8px;
+    }
+
+    .welcomeVideo .video-react {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse:not(.show) {
+        display: flex !important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        margin-right: 13px;
+    }
+
+    .navbar .btn {
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 10px 10px;
+    }
+
+    .navbar .navbar-brand {
+        margin-right: 0;
+        max-width: 60px;
+    }
+
+    .connectWNavs .nav-item {
+        flex: 1 1 auto;
+    }
+
+    .rewardsbox h3 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .pasttranstable th {
+        min-width: 150px;
+    }
+
+    .nftContent h1,
+    .nftintro__text h2 {
+        font-size: 34px;
+    }
+
+    .nftContent p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .nftContent h2 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .dropslide img {
+        height: 540px;
+    }
+
+    .slider-galeria {
+        width: 100%;
+        height: calc(100% - 88px);
+    }
+
+    .mobileRightOpen {
+        top: 45.55px;
+    }
+
+    .featureInner {
+        justify-content: flex-start;
+    }
+
+    .feature {
+        padding-top: 88px;
+    }
+
+    .featureBox.homeserviceBox .featureCharacter img,
+    .featureBox.advisorybox .featureCharacter img,
+    .featureBox.renovationBox .featureCharacter img,
+    .featureBox.ecommerceBox .featureCharacter img,
+    .featureBox.communityBox .featureCharacter img {
+        max-width: 88%;
+    }
+
+    .featureBox.homeserviceBox .featureCharacter,
+    .featureBox.advisorybox .featureCharacter,
+    .featureBox.renovationBox .featureCharacter,
+    .featureBox.ecommerceBox .featureCharacter,
+    .featureBox.communityBox .featureCharacter {
+        right: 0%;
+        width: 210px;
+    }
+
+    .feature__videowrap {
+        height: calc(100vh - 540px);
+    }
+
+    .mobileWelcomeText {
+        img {
+            max-width: 85%;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .aboutMan {
+        max-width: 280px;
+    }
+
+    .aboutContent p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .footer__links li a {
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .footer__links li {
+        margin: 0 5px;
+    }
+
+    .footer__twidisema {
+        display: block;
+        padding-left: 0;
+
+        li {
+            margin: 8px 0;
+        }
+    }
+
+    .footerTerms ul {
+        justify-content: center;
+    }
+
+    .btn.btn-secondary {
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .btn.btn-secondary i {
+        font-size: 24px;
+    }
+
+    .disconn {
+        font-size: 12px;
+        padding: 7px 9px;
+    }
+
+    .connectWNavs .nav-item .nav-link {
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+
+    .connectWNavs .nav-item .nav-link .walletIconc {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mynftBox__header .btn.btn-secondary i {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+
+    .mynftBox__header .btn.btn-secondary {
+        padding: 6px 6px;
+        border-radius: 6px;
+    }
+
+    .mynftBox__content .slick-arrow {
+        border: 1px solid #6D7993;
+        width: 35px;
+        height: 35px;
+    }
+
+    .mynftBox__content .slick-arrow svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nftBox__img {
+        height: 165px;
+    }
+
+    .nftBox p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .pasttranstable th {
+        min-width: 130px;
+        font-size: 14px;
+        padding: 8px;
+        line-height: 20px;
+    }
+
+    .pasttranstable td {
+        font-size: 12px;
+    }
+
+    .pasttransm {
+        padding: 15px 10px 30px;
+    }
+
+    .rewardsbox {
+        min-height: 389px;
+    }
+
+    .rewardsbox h3 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .nftContent h1,
+    .nftintro__text h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .nftContent p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .nftContent h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .nftContent__box ul li {
+        line-height: 1.2;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .attributeSlider .connectWNavs .nav-item .nav-link {
+        justify-content: center;
+        font-size: 16px;
+        padding: 5px 0px;
+    }
+
+    .attributeSlider .connectWNavs .nav-item .nav-link sup {
+        font-size: 12px;
+    }
+
+    .attributeSlider .connectWNavs .nav-item .nav-link span {
+        font-size: 10px;
+    }
+
+    .dropMain .slick-arrow,
+    .nftType__carousel .slick-arrow {
+        border: 1px solid #6D7993;
+        width: 35px;
+        height: 35px;
+    }
+
+    .dropMain .slick-arrow svg,
+    .nftType__carousel .slick-arrow svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropMain {
+        .slick-next {
+            right: 0;
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+    }
+
+    .dropslide img {
+        height: 426px;
+    }
+
+    .overallStat h3 {
+        font-size: 18px;
+    }
+
+    .overallStat__box__stat span {
+        font-size: 13px;
+    }
+
+    .overallStat__box__stat h5 {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .overallStat__box {
+        padding: 10px 15px 15px;
+    }
+
+    .overallStat__box__stats {
+        margin: 0px 0px 10px;
+    }
+
+    .listnftholder .btn.btn-secondary {
+        min-width: 144px;
+    }
+
+    .listnftholder .btn.btn-secondary svg {
+        margin-right: 11px;
+        font-size: 26px;
+    }
+
+    .nftType__title h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .nftType__title a {
+        font-size: 10px;
+        line-height: 18px;
+        margin-left: 6px;
+    }
+
+    .nftdrop__serial {
+        display: block;
+    }
+
+    .nftdrop__serial__selection .form-label,
+    .nftdrop__searchserial .form-label,
+    .nftType__carousel .showonlyavailable .form-check .form-check-label {
+        font-size: 12px;
+    }
+
+    .nftdrop__serial__supplyleft {
+        margin-left: 0;
+    }
+
+    .nftdrop__serial__supplyleft p {
+        font-size: 12px;
+    }
+
+    .nftdrop__serial__supplyleft p span {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 4px;
+    }
+
+    .nftType__carousel__slide {
+        max-width: 157px;
+        margin: 10px auto 0;
+    }
+
+    .nftType__carousel .slick-arrow.slick-next {
+        right: 0;
+    }
+
+    .nftType__carousel .slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    .nftType__carousel__slide span,
+    .nftType__carousel__slide p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .nftType {
+        margin-top: 20px;
+    }
+
+    .nftType__title {
+        margin-bottom: 0px;
+    }
+
+    .nftType__carousel__slide h6 {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 3px;
+    }
+
+    .ticketDetail__img {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .ticketDetail {
+        padding: 16px;
+    }
+
+    .ticketDetail__data .seriestypeattr,
+    .ticketDetail__data .seriesnbr,
+    .ticketDetail__data.sealAttributeData .inputgrp {
+        max-width: 225px;
+    }
+
+    .ticketDetail .ticketDetailPrice p span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .nftsoldbtns a {
+        border-radius: 9px;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 9px;
+        width: 46%;
+    }
+
+    .nftsoldbtns {
+        margin-top: 12px;
+    }
+
+    .marketStatus p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .nfttransactionhistory table thead th {
+        min-width: 100px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .nfttransactionhistory table tbody td {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .nftContent {
+        padding-top: 40px;
+    }
+
+    .nftConnectModal.modal .modal-header .modal-title {
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 700;
+    }
+
+    .nftConnectModal.modal .modal-footer p,
+    .nftsale__instruction p,
+    .nftsale__instruction p span {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .nftsale__instruction p {
+        line-height: 25px;
+    }
+
+    .connectModalWallet p {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 14px;
+    }
+
+    .backLink {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .backLink i {
+        font-size: 18px;
+    }
+
+    .nftsub h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .listticketholder table thead th,
+    .listticketholder table tbody td {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .featureBox h2 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 11px;
+    }
+
+    .featureBox {
+        padding: 8px;
+    }
+
+    .featureBox__keys__key h5 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .theme-check-list li span {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .theme-check-list li svg {
+        font-size: 16px;
+    }
+
+    .featureCharacter {
+        bottom: -24px;
+        right: 0;
+        width: 144px;
+    }
+
+    .featureBox__keys .featureBox__keys__key:first-of-type {
+        margin-bottom: 40px;
+    }
+
+    .featureBox__keys .featureBox__keys__key {
+        margin-bottom: 15px;
+    }
+
+    .featureBox {
+        min-height: unset;
+    }
+
+    .feature__videowrap {
+        margin: 17px 0px;
+        height: calc(100vh - 420px);
+    }
+
+    .thumbnail_img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .plyicon {
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .slider-galeria {
+        height: calc(100% - 57px);
+    }
+
+    .video-react .video-react-big-play-button.video-react-big-play-button-center {
+        margin-top: 0;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .thumbnail-slider-wrap .slick-next,
+    .thumbnail-slider-wrap .slick-prev {
+        background-size: 32px;
+
+        &:hover {
+            background-size: 32px;
+        }
+    }
+
+    .featureBox.homeserviceBox .featureCharacter img,
+    .featureBox.advisorybox .featureCharacter img,
+    .featureBox.renovationBox .featureCharacter img,
+    .featureBox.ecommerceBox .featureCharacter img,
+    .featureBox.communityBox .featureCharacter img {
+        max-width: 100%;
+    }
+
+    .featureBox.homeserviceBox .featureCharacter,
+    .featureBox.advisorybox .featureCharacter,
+    .featureBox.renovationBox .featureCharacter,
+    .featureBox.ecommerceBox .featureCharacter,
+    .featureBox.communityBox .featureCharacter {
+        width: 150px;
+    }
+
+    .welcomeText h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .welcomeText h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .welcomeVideo .video-react {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutMan {
+        max-width: 200px;
+    }
+
+    .aboutContent h1,
+    .milestoneMain h2 {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
