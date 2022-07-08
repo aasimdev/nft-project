@@ -68,6 +68,14 @@
     .featureBox.propertyBox .featureCharacter img {
         max-width: 100%;
     }
+    .milestoneMain .milestoneImg {
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .milestoneMain {
+        padding-top: 60px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -384,12 +392,15 @@
             max-width: 85%;
         }
     }
+    .milestoneMain {
+        padding-top: 40px;
+    }
 
 }
 
 @media (max-width: 576px) {
     .aboutMan {
-        max-width: 280px;
+        max-width: 200px;
     }
 
     .aboutContent p {
@@ -407,8 +418,8 @@
     }
 
     .footer__twidisema {
-        display: block;
         padding-left: 0;
+        gap: 20px;
 
         li {
             margin: 8px 0;
@@ -861,14 +872,12 @@
         line-height: 30px;
     }
     .welcomeVideo .video-react {
-        height: 40vh;
+        height: 50vh;
     }
 }
 
 @media (max-width: 400px) {
-    .aboutMan {
-        max-width: 200px;
-    }
+   
 
     .aboutContent h1,
     .milestoneMain h2 {
