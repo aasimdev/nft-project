@@ -132,6 +132,11 @@ export const features = [
                 tumbnail: videoScreenshot
             },
             {
+                id: 0,
+                video: videoclip,
+                tumbnail: videoScreenshot
+            },
+            {
                 id: 1,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
                 tumbnail: videoScreenshot

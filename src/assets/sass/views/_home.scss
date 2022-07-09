@@ -391,6 +391,7 @@
             }
         }
 
+    
         &:last-of-type {
             .featureCard {
                 margin-bottom: 0;
@@ -423,24 +424,40 @@
         p {
             right: -23px;
         }
+        img{
+            max-width: 90%;
+        }
     }
 
     &.renovationBox {
         background: rgba($color: #25C1E1, $alpha: 0.7) p {
             right: -23px;
         }
+
+        img{
+            max-width: 92%;
+        }
     }
 
     &.homeserviceBox {
         background: rgba(67, 215, 197, 0.7);
+      img{
+        max-width: 91%;
+      }  
     }
 
     &.ecommerceBox {
-        background: rgba($color: #53E8A0, $alpha: 0.7)
+        background: rgba($color: #53E8A0, $alpha: 0.7);
+        img{
+            max-width: 89%;
+        }
     }
 
     &.communityBox {
         background: linear-gradient(0deg, rgba(138, 136, 242, 0.5), rgba(138, 136, 242, 0.5)), #37DD8D;
+        img{
+            max-width: 93%;
+        }
     }
 
     p {
