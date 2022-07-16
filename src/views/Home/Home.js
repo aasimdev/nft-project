@@ -96,7 +96,7 @@ const Home = () => {
                     <a className="menu-links d-none" data-menuanchor="welcome2" href="#welcome2">Welcome</a>
                     {features.map((item, index) =>
                         <a className="menu-links" data-menuanchor={item.alias} href={`#${item.alias}`} key={index}>
-                            <div className={`featureCard ${item.title == "Advisory" ? "advisorybox" : item.title == "Renovation" ? "renovationBox" : item.title == "Home Services" ? "homeserviceBox" : item.title == "E-Commerce" ? "ecommerceBox" : item.title == "Community" ? "communityBox" : ''}`}>
+                            <div className={`featureCard ${item.title == "Property" ? "propertybox" : item.title == "Advisory" ? "advisorybox" : item.title == "Renovation" ? "renovationBox" : item.title == "Home Services" ? "homeserviceBox" : item.title == "E-Commerce" ? "ecommerceBox" : item.title == "Community" ? "communityBox" : ''}`}>
                                 <div className='featureCard__img'>
                                     <Image src={item.featuresmallImage} />
                                 </div>

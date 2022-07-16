@@ -26,7 +26,7 @@ const Feature = (props) => {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
-        centerMode: true,
+        centerMode: false,
         swipeToSlide: true,
         focusOnSelect: true,
         vertical: true,
@@ -89,8 +89,8 @@ const Feature = (props) => {
     return (
         <div className='feature' >
    
-                <div className='featureInner' style={{ background: `url(${feature.bgAnimation}) no-repeat center / 100%` }}>
-                    <div className={`featureBox ${feature.title == "Advisory" ? "advisorybox" : feature.title == "Renovation" ? "renovationBox" : feature.title == "Home Services" ? "homeserviceBox" : feature.title == "E-Commerce" ? "ecommerceBox" : feature.title == "Community" ? "communityBox" : feature.title == "Property" ? "propertyBox" : ''}`}>
+                <div className='featureInner' style={{ background: `url(${feature.bgAnimation})` }}>
+                    <div className={`featureBox ${feature.title == "Property" ? "propertybox" : feature.title == "Advisory" ? "advisorybox" : feature.title == "Renovation" ? "renovationBox" : feature.title == "Home Services" ? "homeserviceBox" : feature.title == "E-Commerce" ? "ecommerceBox" : feature.title == "Community" ? "communityBox" : feature.title == "Property" ? "propertyBox" : ''}`}>
                         <h2>{feature.title}</h2>
                         <div className='featureBox__keys'>
                             <div className='featureBox__keys__key'>
@@ -139,9 +139,9 @@ const Feature = (props) => {
                                                         <circle cx="15" cy="15" r="15" fill="white" />
                                                         <path d="M19.5007 14.134C20.1674 14.5189 20.1674 15.4811 19.5007 15.866L13.5007 19.3301C12.8341 19.715 12.0007 19.2339 12.0007 18.4641L12.0007 11.5359C12.0007 10.7661 12.8341 10.285 13.5007 10.6699L19.5007 14.134Z" fill="#28DAFF" />
                                                     </svg>
-
                                                 </div>
                                             </div>
+                                            {/* <p>caption</p> */}
                                         </div>
                                     </div>
                                 )}

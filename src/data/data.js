@@ -126,11 +126,7 @@ export const features = [
         character: 'Power character that is cool and nice',
         featureImage: feature1,
         videos: [
-            {
-                id: 0,
-                video: videoclip,
-                tumbnail: videoScreenshot
-            },
+
             {
                 id: 0,
                 video: videoclip,
@@ -392,266 +388,266 @@ export const features = [
 
 
 export const nftDropList = [
-    // {
-    //     id: 2202,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
+    {
+        id: 2202,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
 
-    // },
-    // {
-    //     id: 2202,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2213,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2213,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2254,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2254,
-    //     title: null,
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 22061,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 22061,
-    //     title: null,
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2206,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
-    // {
-    //     id: 2206,
-    //     title: '0.3 ETH',
-    //     image: nftDummyBox,
-    //     sold: false
-    // },
+    },
+    {
+        id: 2202,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2203,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2203,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2213,
+        title: '0.3 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2213,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2254,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2254,
+        title: null,
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 22061,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 22061,
+        title: null,
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2206,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
+    {
+        id: 2206,
+        title: '0.3 ETH',
+        image: nftDummyBox,
+        sold: false
+    },
 
 ];
 
 
 export const forsaleList = [
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox
-    // },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox
+    },
 
 ];
 
 
 
 export const recentTransactions = [
-    // {
-    //     id: 2202,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
+    {
+        id: 2202,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox,
+        sold: true
 
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2202,
-    //     title: '1.2 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
-    // {
-    //     id: 2203,
-    //     title: '0.5 ETH',
-    //     image: nftDummyBox,
-    //     sold: true
-    // },
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2202,
+        title: '1.2 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
+    {
+        id: 2203,
+        title: '0.5 ETH',
+        image: nftDummyBox,
+        sold: true
+    },
 
 ];
 

@@ -23,11 +23,9 @@
             }
         }
     }
-
     .featureBox {
         min-height: 340px;
     }
-
     .feature__videowrap {
         height: calc(100vh - 440px);
     }
@@ -281,6 +279,11 @@
     .welcomeVideo .video-react {
         height: 50vh;
     }
+
+    .nonftdropMain__box__content {
+        padding: 0 0px 0 0px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -874,6 +877,11 @@
     .welcomeVideo .video-react {
         height: 50vh;
     }
+
+
+   
+
+
 }
 
 @media (max-width: 400px) {
