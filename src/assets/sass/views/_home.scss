@@ -80,10 +80,9 @@
 
     &Inner {
         margin-left: 192px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
+        min-height: 90vh;
+        background-repeat: repeat-x !important;
+        background-position-y: bottom !important;
         border-radius: 10px 10px 0 0;
     }
 
