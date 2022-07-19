@@ -284,7 +284,9 @@
     .nonftdropMain__box__content {
         padding: 0 0px 0 0px;
     }
-
+    .thumbnailBox p{
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -832,9 +834,11 @@
     }
 
     .slider-galeria {
-        height: calc(100% - 57px);
+        height: calc(100% - 74px);
     }
-
+    .thumbnailBox p {
+        font-size: 12px;
+    }
     .video-react .video-react-big-play-button.video-react-big-play-button-center {
         margin-top: 0;
         margin-left: 0;

@@ -130,22 +130,26 @@ export const features = [
             {
                 id: 0,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg1,
@@ -177,22 +181,26 @@ export const features = [
             {
                 id: 0,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg2,
@@ -224,22 +232,26 @@ export const features = [
             {
                 id: 0,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg3,
@@ -270,22 +282,26 @@ export const features = [
             {
                 id: 0,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg4,
@@ -316,22 +332,26 @@ export const features = [
             {
                 id: 0,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg5,
@@ -362,22 +382,26 @@ export const features = [
             {
                 id: 0,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 1,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 2,
                 video: videoclip,
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             },
             {
                 id: 3,
                 video: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
-                tumbnail: videoScreenshot
+                tumbnail: videoScreenshot,
+                caption: 'lorem ipsum lorem'
             }
         ],
         featuresmallImage: featureCardImg6,

@@ -141,7 +141,7 @@ const Feature = (props) => {
                                                     </svg>
                                                 </div>
                                             </div>
-                                            {/* <p>caption</p> */}
+                                            <p>{slide.caption}</p>
                                         </div>
                                     </div>
                                 )}
